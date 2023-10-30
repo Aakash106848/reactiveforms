@@ -1,0 +1,47 @@
+form
+{
+    display: flex;
+    flex-direction: column; 
+    
+}
+fieldset
+{
+       
+    color:red;
+    width: 700px;
+    height: fit-content;
+}
+div
+{
+    justify-content: center;
+    display: flex;
+    
+}
+table,th,td
+{   
+    
+    width: 600px;
+    animation: identifier 2s infinite alternate-reverse;
+    border: 1px solid tan;
+}
+th,td{
+    color:black;    
+}
+
+tr:first-of-type
+{
+    text-align: center;
+
+}
+@keyframes identifier
+{
+    0%
+    {
+        background-color: red;
+    }
+    100%
+    {
+        background-color: blue;
+    }
+    
+}
